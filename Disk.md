@@ -35,3 +35,8 @@ vi /etc/fstab
 <diskname>    <directoryname>   filesystem    defaults   0   0
 ```
 <img width="951" height="154" alt="image" src="https://github.com/user-attachments/assets/5fb3e520-788c-4381-be31-4798ec380627" />
+
+- [ ] Run `miunt` to update the information in `/etc/fstab`
+```sh
+mount -a
+```
