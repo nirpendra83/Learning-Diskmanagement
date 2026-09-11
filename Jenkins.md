@@ -33,5 +33,8 @@ sudo apt install jenkins
 ## Task 02
 - [ ] Deploy Student App on kuberntes
 - [ ] Deploy student App using CICD pipeline
-
+    - [ ] create a build
+    - [ ] Create an image
+    - [ ] push image to dockerhub
+    - [ ] Deploy from dockerhub image
   
