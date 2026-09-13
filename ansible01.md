@@ -73,17 +73,13 @@
         path: /tmp/hello.txt
         state: absent
 ```
-
-
-
-
----
+```sh
 - name: Beginner Ansible Practice - 30 Tasks
   hosts: all
   become: true
 
   tasks:
-
+```
     # 1
     - name: 1. Ping server
       ansible.builtin.ping:
