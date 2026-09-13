@@ -1,4 +1,5 @@
----
+###
+```yaml
 - name: Copy file at a specific time
   hosts: all
   become: true
@@ -14,13 +15,9 @@
         src: hello.txt
         dest: /tmp/hello.txt
       when: current_time.stdout == "15:00"
+```
 
-
-
-
-
-----
----
+```sh
 - name: Run 10 tasks at the same time
   hosts: all
   become: true
@@ -75,11 +72,11 @@
       ansible.builtin.file:
         path: /tmp/hello.txt
         state: absent
+```
 
 
 
 
----------------------------------------------
 ---
 - name: Beginner Ansible Practice - 30 Tasks
   hosts: all
